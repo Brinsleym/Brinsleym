@@ -12,12 +12,25 @@ When I'm not making music, I'm creating learning more about web development. I e
 
 * **Currently Building With:** Next.js, Hugo, React, and TypeScript.
 * **Interests:** Full-stack development, serverless architecture, UI/UX design, Self-hosted & Open-Source software, data privacy.
-* **Portfolio:** You can see some of my work at [brinsleymorrison.com](https://brinsleymorrison.com).
-
+* **Portfolio:** You can see some of both my musical, and web development work at [brinsleymorrison.com](https://brinsleymorrison.com).
 <p align="center">
-  <img src="metrics.repository.svg" alt="Repository Metrics" style="display:inline-block; width:50%;">
-  <img src="metrics.plugin.pagespeed.screenshot.svg" alt="Site Metrics style="display:inline-block; width:50%">
+  <a href="https://brinsleymorrison.com" target="_blank">
+    <img 
+      src="https://github.com/user-attachments/assets/d987f664-9b1e-4906-9e3f-592024ece0a6"
+      alt="website preview"
+      style="display:inline-block; width:75%; max-width:800px;"
+    >
+  </a>
 </p>
+<p align="center">
+  <a href="https://github.com/brinsleym/website">
+    <img src="metrics.repository.svg" alt="Repository Metrics" style="display:inline-block; width:45%;">
+  </a>
+  <a href="https://brinsleymorrison.com">
+    <img src="metrics.plugin.pagespeed.screenshot.svg" alt="Site Metrics" style="display:inline-block; width:45%;">
+  </a>
+</p>
+
 
 ### 🌏 Language Learning
 
@@ -33,6 +46,10 @@ In my spare time, I'm an avid language learner, and always curious about learnin
 ### 📊 My GitHub Metrics
 
 <p align="center">
-  <img src="metrics.svg" alt="Metrics" style="display:inline-block; width:45%; max-width:400px;">
-  <img src="metrics.plugin.activity.svg" alt="Activity" style="display:inline-block; width:45%; max-width:400px;">
+  <a href="https://github.com/brinsleym/">
+    <img src="metrics.svg" alt="Metrics" style="display:inline-block; width:45%;">
+  </a>
+    <a href="https://github.com/brinsleym/">
+    <img src="metrics.plugin.activity.svg" alt="Activity" style="display:inline-block; width:45%;">
+  </a>
 </p>
