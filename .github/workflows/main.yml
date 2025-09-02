@@ -9,11 +9,51 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    environment: 
-      name: production
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      # This first step generates a general overview metrics image
+      - name: Generate Base Metrics
+        uses: lowlighter/metrics@latest
         with:
+          filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          # Some common plugins to get you started
+          base: header, activity, community, repositories, metadata
+          plugin_lines: yes
+          plugin_languages: yes
+
+      # The next steps generate the specific images you wanted
+      - name: Generate Full-year Calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.isocalendar.fullyear.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      - name: Generate Recent Activity
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.activity.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 0 # Use 0 for all-time, or a number like 14 for the last 2 weeks
+          plugin_activity_filter: issue, pr, release, fork, review, ref/create
+
+      - name: Generate Website Repo Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          template: repository
+          filename: metrics.repository.svg
+          # Use a token with repository scopes if the repo is private
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: brinsleym
+          repo: website
+          plugin_lines: yes
+          plugin_followup: yes
+          plugin_projects: yes
+          plugin_projects_repositories: lowlighter/metrics/projects/1
