@@ -15,8 +15,8 @@ When I'm not making music, I'm creating learning more about web development. I e
 * **Portfolio:** You can see some of my work at [brinsleymorrison.com](https://brinsleymorrison.com).
 
 <p align="center">
-  <img src="metrics.repository.svg" alt="Repository Metrics style="display:inline-block; width:45%; max-width:400px;">
-  <img src="metrics.plugin.pagespeed.screenshot.svg" alt="Site Metrics style="display:inline-block; width:45%; max-width:400px;">
+  <img src="metrics.repository.svg" alt="Repository Metrics" style="display:inline-block; width:50%;">
+  <img src="metrics.plugin.pagespeed.screenshot.svg" alt="Site Metrics style="display:inline-block; width:50%">
 </p>
 
 ### 🌏 Language Learning
