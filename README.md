@@ -1,6 +1,6 @@
-### 👋 Hello! I'm Brinsley Morrison.
+### 👋 Hello, I'm Brinsley.
 
-My background is a bit of a mix. I'm a classically trained musician and composer who has a passion for learning languages: I'm currently learning **Mandarin Chinese**, **Japanese** and **Korean**, but am also **fascinated by musical language**, creating paletes of different musical expression, as well as **computer languages** & **web development**.
+My background is a bit of a mix. I'm a classically trained musician and composer who has a passion for learning languages: I'm currently learning **Mandarin Chinese**, **Japanese** and **Korean**, but am also **fascinated by musical language**, creating different palettes of musical expression, and the medium of music as a subconscious language in film. I'm also interested in computer languages and **web development**, and have recently been expanding my skills in secure back-end development with Node.js and Express-based projects. I've been focusing on good authentication using session management, JWT and OAuth, password hashing, token expiration, role-based access control etc, as well as WebAuthn/FIDO2 support to use passkeys.
 
 ### 🎻 Music & Composition
 
@@ -8,11 +8,11 @@ I hold a First Class Honours BA in Music from the **University of York**, where 
 
 ### 💻 Web Development
 
-When I'm not making music, I'm creating learning more about web development. I enjoy creating fast, visually sleak, and useful tools such as my ![Catalogue of Korean resources](https://github.com/brinsleym/kr-resources), or ![Study progress tracker](https://github.com/brinsleym/kr-study).
+Outside of music, I enjoy creating fast, visually appealing, useful tools such as my ![Catalogue of Korean resources](https://github.com/brinsleym/kr-resources), or ![Study progress tracker](https://github.com/brinsleym/kr-study).
 
 * **Currently Building With:** Next.js, Hugo, React, and TypeScript.
 * **Interests:** Full-stack development, serverless architecture, UI/UX design, Self-hosted & Open-Source software, data privacy.
-* **Portfolio:** You can see some of both my musical, and web development work at [brinsleymorrison.com](https://brinsleymorrison.com).
+* **Portfolio:** You can see both my musical and web development work at [brinsleymorrison.com](https://brinsleymorrison.com).
 <p align="center">
   <a href="https://brinsleymorrison.com" target="_blank">
     <img 
