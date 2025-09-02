@@ -9,6 +9,8 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    # This line tells the job to use the "production" environment
+    environment: production
     permissions:
       contents: write
     steps:
