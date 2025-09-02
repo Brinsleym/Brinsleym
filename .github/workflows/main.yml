@@ -50,14 +50,18 @@ jobs:
         with:
           template: repository
           filename: metrics.repository.svg
-          # Use a token with repository scopes if the repo is private
           token: ${{ secrets.METRICS_TOKEN }}
           user: brinsleym
           repo: website
           plugin_languages: yes
+          
+      - name: Generate Website Site Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.pagespeed.screenshot.svg
+          token: ${{ secrets.METRICS_TOKEN }}
           plugin_pagespeed: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_pagespeed_url: https://brinsleymorrison.com
           plugin_pagespeed_detailed: yes
           plugin_pagespeed_screenshot: yes
-          
