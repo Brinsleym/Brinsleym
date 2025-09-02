@@ -39,7 +39,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_activity: yes
-          plugin_activity_limit: 12
+          plugin_activity_limit: 5
           plugin_activity_load: 300
           plugin_activity_visibility: all
           plugin_activity_days: 0 # Use 0 for all-time, or a number like 14 for the last 2 weeks
@@ -53,6 +53,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: brinsleym
           repo: website
+          plugin_repositories: yes
           plugin_languages: yes
           
       - name: Generate Website Site Metrics
@@ -60,6 +61,7 @@ jobs:
         with:
           filename: metrics.plugin.pagespeed.screenshot.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
           plugin_pagespeed: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_pagespeed_url: https://brinsleymorrison.com
