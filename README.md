@@ -15,8 +15,8 @@ When I'm not making music, I'm creating learning more about web development. I e
 * **Portfolio:** You can see some of my work at [brinsleymorrison.com](https://brinsleymorrison.com).
 
 <p align="center">
-  <img src="metrics.repository.svg" alt="Repository Metrics width="45%">
-  <img src="metrics.plugin.pagespeed.screenshot.svg" alt="Site Metrics width="45%">
+  <img src="metrics.repository.svg" alt="Repository Metrics style="display:inline-block; width:45%; max-width:400px;">
+  <img src="metrics.plugin.pagespeed.screenshot.svg" alt="Site Metrics style="display:inline-block; width:45%; max-width:400px;">
 </p>
 
 ### 🌏 Language Learning
@@ -33,7 +33,6 @@ In my spare time, I'm an avid language learner, and always curious about learnin
 ### 📊 My GitHub Metrics
 
 <p align="center">
-  <img src="metrics.svg" alt="Metrics" width="30%">
-  <img src="metrics.plugin.activity.svg" alt="Activity" width="30%">
-  <img src="metrics.plugin.isocalendar.fullyear.svg" alt="Isocalendar" width="30%">
+  <img src="metrics.svg" alt="Metrics" style="display:inline-block; width:45%; max-width:400px;">
+  <img src="metrics.plugin.activity.svg" alt="Activity" style="display:inline-block; width:45%; max-width:400px;">
 </p>
