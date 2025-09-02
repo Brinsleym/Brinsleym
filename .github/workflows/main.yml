@@ -9,12 +9,10 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    # This line tells the job to use the "production" environment
     environment: production
     permissions:
       contents: write
     steps:
-      # This first step generates a general overview metrics image
       - name: Generate Base Metrics
         uses: lowlighter/metrics@latest
         with:
@@ -25,7 +23,6 @@ jobs:
           plugin_lines: yes
           plugin_languages: yes
 
-      # The next steps generate the specific images you wanted
       - name: Generate Full-year Calendar
         uses: lowlighter/metrics@latest
         with:
@@ -42,9 +39,11 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_activity: yes
-          plugin_activity_limit: 5
+          plugin_activity_limit: 12
+          plugin_activity_load: 300
+          plugin_activity_visibility: all
           plugin_activity_days: 0 # Use 0 for all-time, or a number like 14 for the last 2 weeks
-          plugin_activity_filter: issue, pr, release, fork, review, ref/create
+          plugin_activity_filter: all
 
       - name: Generate Website Repo Metrics
         uses: lowlighter/metrics@latest
@@ -55,7 +54,10 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: brinsleym
           repo: website
-          plugin_lines: yes
-          plugin_followup: yes
-          plugin_projects: yes
-          plugin_projects_repositories: lowlighter/metrics/projects/1
+          plugin_languages: yes
+          plugin_pagespeed: yes
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
+          plugin_pagespeed_url: https://brinsleymorrison.com
+          plugin_pagespeed_detailed: yes
+          plugin_pagespeed_screenshot: yes
+          
