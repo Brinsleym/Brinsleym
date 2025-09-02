@@ -24,10 +24,10 @@ When I'm not making music, I'm creating learning more about web development. I e
 </p>
 <p align="center">
   <a href="https://github.com/brinsleym/website">
-    <img src="metrics.repository.svg" alt="Repository Metrics" style="display:inline-block; width:45%;">
+    <img src="metrics.repository.svg" alt="Repository Metrics" style="display:inline-block; width:49.5%;">
   </a>
   <a href="https://brinsleymorrison.com">
-    <img src="metrics.plugin.pagespeed.screenshot.svg" alt="Site Metrics" style="display:inline-block; width:45%;">
+    <img src="metrics.plugin.pagespeed.screenshot.svg" alt="Site Metrics" style="display:inline-block; width:49.5%;">
   </a>
 </p>
 
@@ -47,9 +47,9 @@ In my spare time, I'm an avid language learner, and always curious about learnin
 
 <p align="center">
   <a href="https://github.com/brinsleym/">
-    <img src="metrics.svg" alt="Metrics" style="display:inline-block; width:45%;">
+    <img src="metrics.svg" alt="Metrics" style="display:inline-block; width:49.5%;">
   </a>
     <a href="https://github.com/brinsleym/">
-    <img src="metrics.plugin.activity.svg" alt="Activity" style="display:inline-block; width:45%;">
+    <img src="metrics.plugin.activity.svg" alt="Activity" style="display:inline-block; width:49.5%;">
   </a>
 </p>
