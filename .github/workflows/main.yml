@@ -15,9 +15,11 @@ jobs:
     steps:
       - name: Generate Base Metrics
         uses: lowlighter/metrics@latest
+        continue-on-error: true
         with:
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          
           # Some common plugins to get you started
           base: header, activity, community, repositories, metadata
           plugin_lines: yes
