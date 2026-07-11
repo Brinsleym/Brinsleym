@@ -1,10 +1,8 @@
 name: Metrics
 on:
-  # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
-  # (optional) Run workflow manually
+  # Update at 2am every Friday
+  schedule: [{cron: "0 2 * * 5"}]
   workflow_dispatch:
-  # (optional) Run workflow when pushing on master/main
   push: {branches: ["master", "main"]}
 jobs:
   github-metrics:
@@ -19,8 +17,6 @@ jobs:
         with:
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          
-          # Some common plugins to get you started
           base: header, activity, community, repositories, metadata
           plugin_lines: yes
           plugin_languages: yes
@@ -44,7 +40,7 @@ jobs:
           plugin_activity_limit: 8
           plugin_activity_load: 300
           plugin_activity_visibility: all
-          plugin_activity_days: 0 # Use 0 for all-time, or a number like 14 for the last 2 weeks
+          plugin_activity_days: 0
           plugin_activity_filter: all
 
       - name: Generate Website Repo Metrics
